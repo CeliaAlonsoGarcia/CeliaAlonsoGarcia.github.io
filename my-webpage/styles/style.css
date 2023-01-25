@@ -2,10 +2,7 @@ html {
   font-size: 16px; /* px means "pixels": the base font size is now 10 pixels high */
   font-family: "Montserrat", sans-serif; /* this should be the rest of the output you got from Google Fonts */
 }
-h1 {
-  font-size: 60px;
-  text-align: center;
-}
+
 
 p,
 li {
@@ -25,13 +22,15 @@ body {
 }
 h1 {
   margin:0px
-  padding: 20px 0;
+  padding: 0px 0;
   color: #00539f;
-  text-shadow: 1px 1px 0px black;
+  font-size: 60px;
+  text-align: center;
+  
 }
 img {
   display: block;
   margin: 0 auto;
-  width: 400px;
-  border: 2px solid darkgreen
+  width: 600px;
+ 
 }

@@ -1,8 +1,8 @@
 html {
   font-size: 16px; /* px means "pixels": the base font size is now 10 pixels high */
   font-family: sans-serif; /* this should be the rest of the output you got from Google Fonts */
+  background-image: url("/images/background.png");
 }
-
 
 p,
 li {
@@ -15,11 +15,17 @@ body {
   width: 1000px;
   margin: 0 auto;
   padding: 20px;
-  
+ 
 
-}
-.photos {
-  display: inline-block;
+
+.main{
+  width: 80%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+
 }
 h1 {
   padding: 50;
@@ -38,7 +44,6 @@ img {
 header {
   background-color: white;
   width: auto;
-  height: 300px;
-  background-image: url("/my-webpage/images/background.png");
+  
   margin: 0;
 }

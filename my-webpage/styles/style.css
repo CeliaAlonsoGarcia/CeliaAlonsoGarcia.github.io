@@ -1,6 +1,6 @@
 html {
   font-size: 16px; /* px means "pixels": the base font size is now 10 pixels high */
-  font-family: "Montserrat", sans-serif; /* this should be the rest of the output you got from Google Fonts */
+  font-family: sans-serif; /* this should be the rest of the output you got from Google Fonts */
 }
 
 
@@ -10,27 +10,35 @@ li {
   line-height: 2;
   letter-spacing: 1px;
 }
-html {
-  background-color: #aed3c2;
-}
+
 body {
   width: 1000px;
   margin: 0 auto;
-  background-color: #c2c48d;
-  padding: 0px 20px 20px 20px;
-  border: 2px solid black;
+  padding: 20px;
+  
+
+}
+.photos {
+  display: inline-block;
 }
 h1 {
-  margin:0px
-  padding: 0px 0;
+  padding: 50;
   color: #00539f;
   font-size: 60px;
   text-align: center;
-  
+
 }
 img {
   display: block;
   margin: 0 auto;
-  width: 600px;
+  width: 500px;
+  padding-bottom: 1cm;
  
+}
+header {
+  background-color: white;
+  width: auto;
+  height: 300px;
+  background-image: url("/my-webpage/images/background.png");
+  margin: 0;
 }

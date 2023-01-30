@@ -1,0 +1,67 @@
+html {
+  font-size: 16px; 
+  font-family: sans-serif; 
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+  background-color: white;
+
+}
+
+
+body {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+   background-image: url(/project-1/images/background3.jpg);
+}
+ 
+  main{
+    width: 600px;
+   background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    
+  
+  }
+
+h1 {
+  padding: 50;
+  color: #00539f;
+  font-size: 60px;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+  padding-bottom: 1cm;
+ 
+}
+
+
+
+header {
+  background-color: white;
+  width: auto;
+  margin: 0;
+}
+
+footer {
+margin-top: 1cm;
+margin-bottom: 5cm;
+}
+
+#current-time {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+

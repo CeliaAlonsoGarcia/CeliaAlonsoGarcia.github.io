@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+  }
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: pink;
+    font-family: sans-serif;
+    border: solid;
+    border-color: white;
+    border-width: 10px;
+}
+
+.project {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-width: 10px;
+    border-color: black;
+    padding: 10px;
+    border-radius: 10px;  
+}
+
+
+.card img {
+    width: 100%;
+    max-width: 400px;
+    object-fit: cover;
+    padding: 10px;
+
+}
+
+.card p {
+    justify-content: center;
+    text-align: center;
+}
